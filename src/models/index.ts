@@ -11,7 +11,7 @@ interface BookCreateRequest {
 // Initialize your Sequelize connection
 const sequelize = new Sequelize({
   dialect: "sqlite",
-  storage: "./data/development.sqlite", // Update this path as needed
+  storage: "./data/development.sqlite",
 });
 
 // Associations

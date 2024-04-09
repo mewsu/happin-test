@@ -4,7 +4,7 @@ import { Author } from "./author";
 // Initialize your Sequelize connection
 const sequelize = new Sequelize({
   dialect: "sqlite",
-  storage: "./data/development.sqlite", // Update this path as needed
+  storage: "./data/development.sqlite",
 });
 
 // Define the Book model

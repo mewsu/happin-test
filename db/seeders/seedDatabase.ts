@@ -4,7 +4,7 @@ import { sequelize, Author, Book } from '../../src/models/index';
 
 const seedDatabase = async () => {
   // Ensure models are synced before seeding
-  await sequelize.sync(); // Use `{ force: true }` with caution
+  await sequelize.sync();
 
   // Create tables if they do not exist
   await Author.sync();

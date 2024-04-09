@@ -3,7 +3,7 @@ import jwt from 'jsonwebtoken';
 
 const router: Router = express.Router();
 
-const users = [{ username: 'user1', password: 'pass1' }]; // Example user, replace with your DB call
+const users = [{ username: 'user1', password: 'pass1' }]; // Placeholder for user login
 const secret = 'your_jwt_secret'; // Move this to an environment variable
 
 /**

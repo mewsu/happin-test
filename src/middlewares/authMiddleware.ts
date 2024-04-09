@@ -10,13 +10,11 @@ interface UserPayload {
 }
 declare module 'express-serve-static-core' {
     interface UserPayload {
-        // Adjust the payload according to your needs
         id: string;
-        // Add other user properties here
       }
     
       interface Request {
-        user?: UserPayload; // Now the Request object can have a 'user' property
+        user?: UserPayload;
       }
 }
 
